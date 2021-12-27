@@ -1,5 +1,5 @@
 body {
-    width: 50%;
+    width: 90%;
     text-align: center;
     margin: auto;
 }
@@ -8,27 +8,27 @@ body {
     color: white;
     background-color: black;
     padding: 5px;
-}
-
-.list {
-    font-size: large;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .foot {
     color: white;
     background-color: black;
     margin-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-top: 5px;
-}
-
-.nav-div {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .nav-features {
     padding: 5px;
+    display: inline-flex;
 }
 
 .foot-features {
     padding: 5px;
+    display: inline-flex;
 }

@@ -5,3 +5,11 @@
 .list {
     font-size: large;
 }
+
+.foot {
+    color: blue;
+}
+
+.nav-div {
+    display: inline-flex;
+}

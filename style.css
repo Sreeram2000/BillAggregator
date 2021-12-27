@@ -7,6 +7,7 @@ body {
 .nav {
     color: white;
     background-color: black;
+    padding: 5px;
 }
 
 .list {
@@ -16,11 +17,18 @@ body {
 .foot {
     color: white;
     background-color: black;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .nav-div {
 }
 
 .nav-features {
+    padding: 5px;
+}
+
+.foot-features {
     padding: 5px;
 }

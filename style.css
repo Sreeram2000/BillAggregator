@@ -32,3 +32,15 @@ body {
     padding: 5px;
     display: inline-flex;
 }
+
+.main-section{
+    margin-top: 20px;
+}
+
+.section-1 {
+    height: 100px;
+}
+
+.section-2 {
+    height: 100px;
+}

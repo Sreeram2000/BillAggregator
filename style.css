@@ -1,5 +1,12 @@
+body {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
 .nav {
-    color: blue;
+    color: white;
+    background-color: black;
 }
 
 .list {
@@ -7,9 +14,13 @@
 }
 
 .foot {
-    color: blue;
+    color: white;
+    background-color: black;
 }
 
 .nav-div {
-    display: inline-flex;
+}
+
+.nav-features {
+    padding: 5px;
 }

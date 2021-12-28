@@ -50,7 +50,7 @@ body {
 .main-section{
     margin-top: 20px;
     align-items: center;
-    /* display: flex; */
+    display: flex;
 }
 
 .section-1 {
@@ -59,9 +59,10 @@ body {
     padding: 5px;
     border-radius: 1rem;
     border: solid white 2px ;
-    width: 50%;
+    width: 80%;
     padding: 20px;
     height: auto;
+    margin-left: auto;
     margin: 20px;
 }
 

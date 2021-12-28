@@ -50,7 +50,6 @@ body {
 .main-section{
     margin-top: 20px;
     align-items: center;
-    /* position: relative;ch */
 }
 
 .section-1 {
@@ -61,6 +60,5 @@ body {
     padding: 5px;
     border-radius: 1rem;
     border: solid white 2px ;
-    margin: 20px auto;
-    /* position: relative; */
+    margin: 20px;
 }

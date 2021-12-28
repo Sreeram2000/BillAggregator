@@ -33,14 +33,23 @@ body {
     display: inline-flex;
 }
 
+.foot-features button {
+    background-color: white;
+    border: solid black 4px;
+    font-size: 18px;
+}
+
 .main-section{
     margin-top: 20px;
 }
 
 .section-1 {
     height: 100px;
-}
-
-.section-2 {
-    height: 100px;
+    width: auto;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 1rem;
+    border: solid white 2px ;
+    display: inline-flex;
 }

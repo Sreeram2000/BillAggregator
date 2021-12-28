@@ -1,5 +1,5 @@
 body {
-    width: 90%;
+    width: 70%;
     text-align: center;
     margin: auto;
 }
@@ -49,17 +49,18 @@ body {
 
 .main-section{
     margin-top: 20px;
+    align-items: center;
     position: relative;
-    display: inline-flex;
 }
 
 .section-1 {
-    height: 10rem;
-    width: 50%;
+    height: auto;
+    width: auto;
     color: white;
     background-color: black;
     padding: 5px;
     border-radius: 1rem;
-    width: 50%;
     border: solid white 2px ;
+    margin: 20px auto;
+    /* position: relative; */
 }

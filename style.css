@@ -28,6 +28,13 @@ body {
     display: inline-flex;
 }
 
+.nav-features button {
+    background-color: white;
+    border: solid black 0px;
+    font-size: 15px;
+    padding: 0%;
+}
+
 .foot-features {
     padding: 5px;
     display: inline-flex;
@@ -36,7 +43,7 @@ body {
 .foot-features button {
     background-color: white;
     border: solid black 0px;
-    font-size: 18px;
+    font-size: 15px;
     padding: 0%;
 }
 

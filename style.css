@@ -35,8 +35,9 @@ body {
 
 .foot-features button {
     background-color: white;
-    border: solid black 4px;
+    border: solid black 0px;
     font-size: 18px;
+    padding: 0%;
 }
 
 .main-section{
@@ -50,6 +51,6 @@ body {
     background-color: black;
     padding: 5px;
     border-radius: 1rem;
+    width: 50%;
     border: solid white 2px ;
-    display: inline-flex;
 }

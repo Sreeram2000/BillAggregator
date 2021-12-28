@@ -49,11 +49,13 @@ body {
 
 .main-section{
     margin-top: 20px;
+    position: relative;
+    display: inline-flex;
 }
 
 .section-1 {
-    height: 100px;
-    width: auto;
+    height: 10rem;
+    width: 50%;
     color: white;
     background-color: black;
     padding: 5px;

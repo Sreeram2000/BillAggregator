@@ -3,6 +3,11 @@ body {
     margin: auto;
 }
 
+a:hover {
+    border: solid white 2px;
+    font-weight: bold;
+}
+
 .nav {
     color: white;
     background-color: black;
@@ -27,10 +32,8 @@ body {
     display: inline-flex;
 }
 
-.nav-features button {
-    background-color: white;
-    border: solid black 0px;
-    font-size: 15px;
+.nav-features a {
+    font-size: 18px;
     padding: 0%;
 }
 
@@ -39,9 +42,7 @@ body {
     display: inline-flex;
 }
 
-.foot-features button {
-    background-color: white;
-    border: solid black 0px;
+.foot-features a {
     font-size: 18px;
     font-weight: bold;
     padding: 0%;

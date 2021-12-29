@@ -47,6 +47,8 @@ body {
 }
 
 .main-section{
+    width: 80%;
+    margin: auto;
     margin-top: 20px;
     align-items: center;
     display: flex;
@@ -61,23 +63,19 @@ body {
 .section-1 {
     color: white;
     background-color: black;
-    padding: 5px;
     border-radius: 1rem;
     border: solid white 2px ;
     width: 80%;
     padding: 20px;
-    height: auto;
-    margin-left: auto;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .section-2 {
     color: white;
     background-color: black;
-    padding: 5px;
     border-radius: 1rem;
     border: solid white 2px ;
-    width: 50%;
+    width: auto;
     padding: 20px;
     height: auto;
     margin: 30px auto;

@@ -88,6 +88,12 @@ button:hover {
     margin: 30px auto;
 }
 
+.section-2 div {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
 .section-3 {
     color: white;
     background-color: black;
@@ -97,8 +103,3 @@ button:hover {
     border-radius: 1rem;
 }
 
-.form-1 {
-    margin: 20px;
-    font: bold;
-    font-size: larger;
-}

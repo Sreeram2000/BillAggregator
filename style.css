@@ -1,6 +1,8 @@
 body {
     text-align: center;
     margin: auto;
+    --try-color : blue;
+    --font-color : black
 }
 
 a:hover {
@@ -8,14 +10,9 @@ a:hover {
     font-weight: bold;
 }
 
-button:hover {
-    border: solid white 2px;
-    font-weight: bold;
-}
-
 .nav {
     color: white;
-    background-color: black;
+    background-color: var(--try-color);
     padding: 5px;
     padding-bottom: 20px;
     border-bottom-left-radius: 1rem;
@@ -24,7 +21,7 @@ button:hover {
 
 .foot {
     color: white;
-    background-color: black;
+    background-color: var(--try-color);
     margin-top: 10px;
     padding-bottom: 20px;
     padding-top: 5px;
@@ -39,22 +36,21 @@ button:hover {
 
 .nav-features button {
     font-size: 15px;
-    padding: 5px;
-}
-
-.foot-features {
-    padding: 5px;
-    display: inline-flex;
-}
-
-.foot-features a {
-    font-size: 18px;
     font-weight: bold;
-    padding: 0%;
+    padding: 5px;
+    background-color:var(--try-color);
+    color:white;
+    text-decoration: none;
+    border-width: 0px;
+}
+
+.nav-features button:hover {
+    font-weight: bold;
+    border: 2px solid white ;
 }
 
 .main-section{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     align-items: center;
@@ -62,14 +58,19 @@ button:hover {
     
 }
 
+article {
+    padding: 10px;
+}
+
 .info-section {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .section-1 {
     color: white;
-    background-color: black;
+    background-color: var(--try-color);
+    font-weight: bold;
     border-radius: 1rem;
     border: solid white 2px ;
     width: 80%;
@@ -79,7 +80,7 @@ button:hover {
 
 .section-2 {
     color: white;
-    background-color: black;
+    background-color: var(--try-color);
     border-radius: 1rem;
     border: solid white 2px ;
     width: auto;
@@ -96,10 +97,24 @@ button:hover {
 
 .section-3 {
     color: white;
-    background-color: black;
+    background-color: var(--try-color);
     margin: 20px;
     padding: 10px;
     font-size: larger;
     border-radius: 1rem;
 }
 
+
+.foot-features {
+    padding: 5px;
+    display: inline-flex;
+}
+
+.foot-features a {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    background-color:var(--try-color);
+    color:white;
+    text-decoration: none;
+}

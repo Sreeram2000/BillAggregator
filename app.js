@@ -1,5 +1,9 @@
-var str = ""
 
+
+//                 ADD UTILITY BILLS
+
+
+var str = ""
 document.querySelector('.form-1').style.display='none';
 document.querySelector(".nav-utility").addEventListener('click',function () {
     document.querySelector('.form-1').style.display='block';
@@ -13,4 +17,7 @@ document.querySelector(".nav-utility").addEventListener('click',function () {
         document.querySelector('.in-utility').value = ''
     })
 })
+
+
+//                  WALLET RECHARGE
 

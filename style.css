@@ -1,7 +1,7 @@
 body {
     text-align: center;
     margin: auto;
-    --try-color : blue;
+    --try-color : rgb(45, 120, 170);
     --font-color : black
 }
 

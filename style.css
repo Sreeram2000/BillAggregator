@@ -8,6 +8,11 @@ a:hover {
     font-weight: bold;
 }
 
+button:hover {
+    border: solid white 2px;
+    font-weight: bold;
+}
+
 .nav {
     color: white;
     background-color: black;
@@ -32,9 +37,9 @@ a:hover {
     display: inline-flex;
 }
 
-.nav-features a {
-    font-size: 18px;
-    padding: 0%;
+.nav-features button {
+    font-size: 15px;
+    padding: 5px;
 }
 
 .foot-features {
@@ -90,4 +95,10 @@ a:hover {
     padding: 10px;
     font-size: larger;
     border-radius: 1rem;
+}
+
+.form-1 {
+    margin: 20px;
+    font: bold;
+    font-size: larger;
 }

@@ -10,6 +10,11 @@ a:hover {
     font-weight: bold;
 }
 
+button:hover {
+    border: solid white 2px;
+    font-weight: bold;
+}
+
 .nav {
     color: white;
     background-color: var(--try-color);

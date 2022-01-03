@@ -1,8 +1,10 @@
 body {
     text-align: center;
     margin: auto;
-    --try-color : #2d78aa;
-    --font-color : black
+    /* --try-color : #2d78aa; */
+    /* --try-color : #753682; */
+    --try-color : black;
+    /* background-color: #bf2e34; */
 }
 
 a:hover {

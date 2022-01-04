@@ -23,5 +23,19 @@ document.querySelector(".nav-utility").addEventListener('click',function () {
 
 //                  WALLET RECHARGE
 
+
 var str1 = ""
 document.querySelector(".form-2").style.display = 'none';
+document.querySelector(".nav-wallet").addEventListener('click',function () {
+    document.querySelector(".form-2").style.display = 'block';
+    document.querySelector(".btn-wallet").addEventListener("click",function() {
+        str1 = document.querySelector('.in-recharge').value;
+        // console.log(str1);
+        let bal = document.querySelector('.balance').textContent;
+        // console.log(bal)
+        bal = +bal + +str1;
+        // console.log(bal)
+        document.querySelector('.balance').textContent = bal;
+        document.querySelector(".form-2").style.display = 'none';
+    })
+})

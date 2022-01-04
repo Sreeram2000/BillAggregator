@@ -23,3 +23,5 @@ document.querySelector(".nav-utility").addEventListener('click',function () {
 
 //                  WALLET RECHARGE
 
+var str1 = ""
+document.querySelector(".form-2").style.display = 'none';

@@ -18,6 +18,9 @@ document.querySelector(".nav-utility").addEventListener('click',function () {
         document.querySelector('.util-bills').appendChild(tag)
         document.querySelector('.in-utility').value = ''
     })
+    document.querySelector(".nav-utility").addEventListener('click',function () {
+        document.querySelector('.form-1').style.display='none';
+    })
 })
 
 
@@ -36,6 +39,9 @@ document.querySelector(".nav-wallet").addEventListener('click',function () {
         bal = +bal + +str1;
         // console.log(bal)
         document.querySelector('.balance').textContent = bal;
+        document.querySelector(".form-2").style.display = 'none';
+    })
+    document.querySelector(".nav-wallet").addEventListener('click',function () {
         document.querySelector(".form-2").style.display = 'none';
     })
 })

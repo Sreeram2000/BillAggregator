@@ -32,6 +32,9 @@ var str2 = ''
 document.querySelector('.form-3').style.display = 'none';
 document.querySelector('.nav-recurr').addEventListener('click',function() {
     document.querySelector('.form-3').style.display = 'block';
+    document.querySelector('.btn-recurr').addEventListener('click',function () {
+        document.querySelector('.form-3').style.display = 'none';
+    })
     document.querySelector('.nav-recurr').addEventListener('click',function() {
         document.querySelector('.form-3').style.display = 'none';
     })

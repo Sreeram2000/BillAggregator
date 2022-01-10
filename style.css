@@ -122,6 +122,9 @@ article {
     border-radius: 1rem;
 }
 
+.section-3 p {
+    text-align: justify;
+}
 
 .foot-features {
     padding: 5px;

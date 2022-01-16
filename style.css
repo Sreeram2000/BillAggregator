@@ -41,6 +41,14 @@ button:hover {
     display: inline-flex;
 }
 
+.login {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .nav-features button {
     font-size: 15px;
     font-weight: bold;
